@@ -1,0 +1,24 @@
+? This here is a very special comment 
+It so very much is
+?
+LOAD module;
+
+VAR no = "no";
+REPEAT 1;
+  OUTPUT "no"; 
+  REPEAT 2;
+    OUTPUT "maybe";
+  END_REPEAT;
+END_REPEAT;
+
+OUTPUT "This is awesome!";
+OUTPUT "Agreed!";
+
+FUNCTION hoi;
+  OUTPUT "YES, YES IT IS"; 
+END_FUNCTION;
+
+PAUSE 7;
+CALL hoi;
+
+OUTPUT no;
